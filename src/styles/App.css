@@ -1,0 +1,13 @@
+.polygon {
+    float: left;
+    box-sizing: border-box;
+    shape-outside: polygon(150px, 0, 0 150px, 150px 150px);
+    -webkit-clip-path: polygon(0 0, 0 150px, 150px 150px);
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.title, .subtitle {
+    font-family: 'Lato', sans-serif;
+}
