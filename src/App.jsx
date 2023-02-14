@@ -1,13 +1,12 @@
 import './styles/App.css'
 import Title from './components/title';
+import SocialMedia from "./components/social-media";
 
 function App() {
   return (
     <div className="App">      
       <Title />
-      <p className='subtitle'>
-        Junior Software Developer
-      </p>
+      <SocialMedia />
     </div>
   );
 }
